@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: 050752631174.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:2
+        image: 050752631174.dkr.ecr.us-east-1.amazonaws.com/productcatalogservice:1
         ports:
         - containerPort: 3550
         env:
@@ -62,4 +62,5 @@ spec:
   - name: grpc
     port: 3550
     targetPort: 3550
+
 
