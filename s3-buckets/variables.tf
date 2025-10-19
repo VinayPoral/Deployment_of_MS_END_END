@@ -1,17 +1,12 @@
-variable "bucket1_name" {
-  description = "Name of the first S3 bucket"
-  type        = string
-  default     = "aluruarumullaa1"
+variable "bucket1" {
+    description = "bucket1_name"
+    type = string 
+    default = "vinay-s3-1-bucket"
 }
 
-variable "bucket2_name" {
-  description = "Name of the second S3 bucket"
-  type        = string
-  default     = "arumullaaluruu1"
-}
+variable "bucket2" {
+    description = "bucket2 name"
+    type  = string
+    default = "vinay-s3-2"
 
-variable "environment" {
-  description = "Environment tag for the buckets"
-  type        = string
-  default     = "dev"
 }
